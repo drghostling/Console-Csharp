@@ -32,11 +32,12 @@ namespace HesapBloke
                     Console.ForegroundColor = ConsoleColor.White;
                     Console.Write("Account Blocked");
                 }
-
+                else{
                 Console.ForegroundColor = ConsoleColor.Red;
                 Console.Write(yanlisgirmesayisi + "Your Password is Wrong");
                 Console.ForegroundColor = ConsoleColor.Gray;
                 goto menu;
+            }
             }
             Console.ReadKey();
 
